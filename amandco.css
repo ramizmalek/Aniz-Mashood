@@ -17,6 +17,7 @@ html{scroll-behavior: smooth;}
     width: 3em;
     height: 3em;
   }
+  .card-custom-h{height: 20em;}
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
@@ -24,4 +25,7 @@ html{scroll-behavior: smooth;}
 
   #arrow{
       width: 2em;
+  }
+  @media(max-width:461px){
+      .card-custom-h{height: 25em;}
   }
